@@ -2,6 +2,6 @@
 {
     public interface INumberConverter
     {
-        public string ConvertNumber(NumberModel inputModel);
+        public string ConvertFromRomanToNumber(NumberModel inputModel);
     }
 }

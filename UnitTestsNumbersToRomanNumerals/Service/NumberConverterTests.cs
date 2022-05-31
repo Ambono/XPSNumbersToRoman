@@ -14,7 +14,7 @@ namespace NumbersToRomanNumerals.Service.Tests
             NumberConverter nc = new NumberConverter();
             var numberModel = new NumberModel() { Input = num };
             //Act
-            var response = nc.ConvertNumber(numberModel);
+            var response = nc.ConvertFromRomanToNumber(numberModel);
             //Assert
 
             Assert.AreEqual(response, roman);
@@ -29,7 +29,7 @@ namespace NumbersToRomanNumerals.Service.Tests
             NumberConverter nc = new NumberConverter();
             var numberModel = new NumberModel() { Input = num };
             //Act
-            var response = nc.ConvertNumber(numberModel);
+            var response = nc.ConvertFromRomanToNumber(numberModel);
             //Assert
 
             Assert.AreEqual(response, roman);
@@ -44,7 +44,7 @@ namespace NumbersToRomanNumerals.Service.Tests
             NumberConverter nc = new NumberConverter();
             var numberModel = new NumberModel() { Input = num };
             //Act
-            var response = nc.ConvertNumber(numberModel);
+            var response = nc.ConvertFromRomanToNumber(numberModel);
             //Assert
 
             Assert.AreEqual(response, roman);
@@ -61,7 +61,7 @@ namespace NumbersToRomanNumerals.Service.Tests
             NumberConverter nc = new NumberConverter();
             var numberModel = new NumberModel() { Input = num };
             //Act
-            var response = nc.ConvertNumber(numberModel);
+            var response = nc.ConvertFromRomanToNumber(numberModel);
             //Assert
 
         }

@@ -34,7 +34,7 @@ namespace NumbersToRomanNumerals.Controllers
 
             }
 
-            var result = numbersConverter.ConvertNumber(inputModel);
+            var result = numbersConverter.ConvertFromRomanToNumber(inputModel);
 
             return Ok(result);
         }

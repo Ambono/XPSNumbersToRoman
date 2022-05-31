@@ -6,7 +6,7 @@ namespace NumbersToRomanNumerals
     public class NumberConverter : INumberConverter
     {
 
-        public string ConvertNumber(NumberModel inputModel)
+        public string ConvertFromRomanToNumber(NumberModel inputModel)
         {
            
             string romanNumeral = string.Empty;
