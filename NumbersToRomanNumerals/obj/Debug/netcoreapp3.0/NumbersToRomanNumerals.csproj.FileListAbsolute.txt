@@ -111,5 +111,9 @@ C:\dev\XPS\NumbersToRomanNumerals\bin\Debug\netcoreapp3.0\Microsoft.OpenApi.dll
 C:\dev\XPS\NumbersToRomanNumerals\bin\Debug\netcoreapp3.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\dev\XPS\NumbersToRomanNumerals\bin\Debug\netcoreapp3.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\dev\XPS\NumbersToRomanNumerals\bin\Debug\netcoreapp3.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\dev\XPS\NumbersToRomanNumerals\bin\Debug\netcoreapp3.0\System.Net.Http.Formatting.dll
+C:\dev\XPS\NumbersToRomanNumerals\bin\Debug\netcoreapp3.0\System.Web.Http.dll
+C:\dev\XPS\NumbersToRomanNumerals\bin\Debug\netcoreapp3.0\Newtonsoft.Json.Bson.dll
 C:\dev\XPS\NumbersToRomanNumerals\obj\Debug\netcoreapp3.0\NumbersToRomanNumerals.MvcApplicationPartsAssemblyInfo.cs
 C:\dev\XPS\NumbersToRomanNumerals\obj\Debug\netcoreapp3.0\NumbersToRomanNumerals.MvcApplicationPartsAssemblyInfo.cache
+C:\dev\XPS\NumbersToRomanNumerals\bin\Debug\netcoreapp3.0\FluentValidation.dll

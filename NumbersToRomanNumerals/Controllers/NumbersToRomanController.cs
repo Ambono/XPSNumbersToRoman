@@ -1,5 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using System;
+﻿using FluentValidation.Results;
+using Microsoft.AspNetCore.Mvc;
 
 namespace NumbersToRomanNumerals.Controllers
 {
@@ -20,9 +20,21 @@ namespace NumbersToRomanNumerals.Controllers
         /// <param name="number"></param>
         /// <returns></returns>
         [HttpGet("ConvertNumber/{number}")]
-        public IActionResult Get([FromRoute] string number)
+        public IActionResult Get([FromRoute] int number)
         {
-            var result = numbersConverter.ConvertNumber(Convert.ToInt32(number));
+            var inputModel = new NumberModel() { Input = number };
+            NumberValidator validator = new NumberValidator();
+
+            ValidationResult results = validator.Validate(inputModel);
+
+            if (!results.IsValid)
+            {
+
+                return BadRequest();
+
+            }
+
+            var result = numbersConverter.ConvertNumber(inputModel);
 
             return Ok(result);
         }

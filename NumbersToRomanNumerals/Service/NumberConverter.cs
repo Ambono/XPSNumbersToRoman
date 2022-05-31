@@ -1,13 +1,18 @@
 ﻿namespace NumbersToRomanNumerals
 {
+    //Algorithm from
+    //https://www.c-sharpcorner.com/article/convert-numbers-to-roman-characters-in-c-sharp/
+
     public class NumberConverter : INumberConverter
     {
-      
-        public string ConvertNumber(int num)
-        {
 
-            string romanResult = string.Empty;
-            string[] romanLetters = {
+        public string ConvertNumber(NumberModel inputModel)
+        {
+           
+            string romanNumeral = string.Empty;
+
+      
+                string[] romanLetters = {
                                 "M",
                                 "CM",
                                 "D",
@@ -22,7 +27,8 @@
                                 "IV",
                                 "I"
                             };
-            int[] numbers = {
+
+                int[] numbers = {
                     1000,
                     900,
                     500,
@@ -37,22 +43,24 @@
                     4,
                     1
                 };
-            int i = 0;
-            while (num != 0)
-            {
-                if (num >= numbers[i])
+
+                int i = 0;
+
+                while (inputModel.Input != 0)
                 {
-                    num -= numbers[i];
-                    romanResult += romanLetters[i];
+                    if (inputModel.Input >= numbers[i])
+                    {
+                        inputModel.Input -= numbers[i];
+                        romanNumeral += romanLetters[i];
+                    }
+                    else
+                    {
+                        i++;
+                    }
                 }
-                else
-                {
-                    i++;
-                }
-            }
-            return romanResult;
+                return romanNumeral;
+          
+
         }
     }
-
-
 }

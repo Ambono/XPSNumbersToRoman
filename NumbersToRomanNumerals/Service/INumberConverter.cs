@@ -2,6 +2,6 @@
 {
     public interface INumberConverter
     {
-        public string ConvertNumber(int number);
+        public string ConvertNumber(NumberModel inputModel);
     }
 }
