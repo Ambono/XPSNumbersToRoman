@@ -1,7 +1,9 @@
-﻿namespace NumbersToRomanNumerals
+﻿using System.Threading.Tasks;
+
+namespace NumbersToRomanNumerals
 {
     public interface INumberConverter
     {
-        public string ConvertFromRomanToNumber(NumberModel inputModel);
+        public  Task<string> ConvertFromRomanToNumber(NumberModel inputModel);
     }
 }

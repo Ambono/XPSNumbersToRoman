@@ -1,9 +1,6 @@
 C:\dev\XPS\NumbersToRomanNumerals\bin\Debug\netcoreapp3.0\appsettings.Development.json
 C:\dev\XPS\NumbersToRomanNumerals\bin\Debug\netcoreapp3.0\appsettings.json
-C:\dev\XPS\NumbersToRomanNumerals\bin\Debug\netcoreapp3.0\Properties\launchSettings.json
-C:\dev\XPS\NumbersToRomanNumerals\obj\Debug\netcoreapp3.0\NumbersToRomanNumerals.csprojAssemblyReference.cache
 C:\dev\XPS\NumbersToRomanNumerals\obj\Debug\netcoreapp3.0\staticwebassets\NumbersToRomanNumerals.StaticWebAssets.Manifest.cache
-C:\dev\XPS\NumbersToRomanNumerals\obj\Debug\netcoreapp3.0\staticwebassets\NumbersToRomanNumerals.StaticWebAssets.xml
 C:\dev\XPS\NumbersToRomanNumerals\obj\Debug\netcoreapp3.0\NumbersToRomanNumerals.AssemblyInfoInputs.cache
 C:\dev\XPS\NumbersToRomanNumerals\obj\Debug\netcoreapp3.0\NumbersToRomanNumerals.AssemblyInfo.cs
 C:\dev\XPS\NumbersToRomanNumerals\obj\Debug\netcoreapp3.0\NumbersToRomanNumerals.RazorTargetAssemblyInfo.cache
@@ -117,3 +114,7 @@ C:\dev\XPS\NumbersToRomanNumerals\bin\Debug\netcoreapp3.0\Newtonsoft.Json.Bson.d
 C:\dev\XPS\NumbersToRomanNumerals\obj\Debug\netcoreapp3.0\NumbersToRomanNumerals.MvcApplicationPartsAssemblyInfo.cs
 C:\dev\XPS\NumbersToRomanNumerals\obj\Debug\netcoreapp3.0\NumbersToRomanNumerals.MvcApplicationPartsAssemblyInfo.cache
 C:\dev\XPS\NumbersToRomanNumerals\bin\Debug\netcoreapp3.0\FluentValidation.dll
+C:\dev\XPS\NumbersToRomanNumerals\obj\Debug\netcoreapp3.0\NumbersToRomanNumerals.csproj.AssemblyReference.cache
+C:\dev\XPS\NumbersToRomanNumerals\obj\Debug\netcoreapp3.0\NumbersToRomanNumerals.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\XPS\NumbersToRomanNumerals\obj\Debug\netcoreapp3.0\NumbersToRomanNumerals.csproj.CoreCompileInputs.cache
+C:\dev\XPS\NumbersToRomanNumerals\obj\Debug\netcoreapp3.0\NumbersToRomanNumerals.genruntimeconfig.cache

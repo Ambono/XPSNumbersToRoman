@@ -83,13 +83,11 @@ C:\dev\XPS\UnitTestsNumbersToRomanNumerals\bin\Debug\netcoreapp3.0\zh-Hans\Micro
 C:\dev\XPS\UnitTestsNumbersToRomanNumerals\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 C:\dev\XPS\UnitTestsNumbersToRomanNumerals\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 C:\dev\XPS\UnitTestsNumbersToRomanNumerals\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-C:\dev\XPS\UnitTestsNumbersToRomanNumerals\obj\Debug\netcoreapp3.0\UnitTestsNumbersToRomanNumerals.csprojAssemblyReference.cache
 C:\dev\XPS\UnitTestsNumbersToRomanNumerals\obj\Debug\netcoreapp3.0\UnitTestsNumbersToRomanNumerals.AssemblyInfoInputs.cache
 C:\dev\XPS\UnitTestsNumbersToRomanNumerals\obj\Debug\netcoreapp3.0\UnitTestsNumbersToRomanNumerals.AssemblyInfo.cs
 C:\dev\XPS\UnitTestsNumbersToRomanNumerals\obj\Debug\netcoreapp3.0\UnitTestsNumbersToRomanNumerals.csproj.CopyComplete
 C:\dev\XPS\UnitTestsNumbersToRomanNumerals\bin\Debug\netcoreapp3.0\appsettings.Development.json
 C:\dev\XPS\UnitTestsNumbersToRomanNumerals\bin\Debug\netcoreapp3.0\appsettings.json
-C:\dev\XPS\UnitTestsNumbersToRomanNumerals\bin\Debug\netcoreapp3.0\Properties\launchSettings.json
 C:\dev\XPS\UnitTestsNumbersToRomanNumerals\bin\Debug\netcoreapp3.0\NumbersToRomanNumerals.exe
 C:\dev\XPS\UnitTestsNumbersToRomanNumerals\bin\Debug\netcoreapp3.0\UnitTestsNumbersToRomanNumerals.pdb
 C:\dev\XPS\UnitTestsNumbersToRomanNumerals\bin\Debug\netcoreapp3.0\xunit.abstractions.dll
@@ -196,3 +194,10 @@ C:\dev\XPS\UnitTestsNumbersToRomanNumerals\bin\Debug\netcoreapp3.0\System.Net.Ht
 C:\dev\XPS\UnitTestsNumbersToRomanNumerals\bin\Debug\netcoreapp3.0\System.Web.Http.dll
 C:\dev\XPS\UnitTestsNumbersToRomanNumerals\bin\Debug\netcoreapp3.0\Newtonsoft.Json.Bson.dll
 C:\dev\XPS\UnitTestsNumbersToRomanNumerals\bin\Debug\netcoreapp3.0\FluentValidation.dll
+C:\dev\XPS\UnitTestsNumbersToRomanNumerals\bin\Debug\netcoreapp3.0\NumbersToRomanNumerals.deps.json
+C:\dev\XPS\UnitTestsNumbersToRomanNumerals\bin\Debug\netcoreapp3.0\NumbersToRomanNumerals.runtimeconfig.json
+C:\dev\XPS\UnitTestsNumbersToRomanNumerals\bin\Debug\netcoreapp3.0\NumbersToRomanNumerals.runtimeconfig.dev.json
+C:\dev\XPS\UnitTestsNumbersToRomanNumerals\obj\Debug\netcoreapp3.0\UnitTestsNumbersToRomanNumerals.csproj.AssemblyReference.cache
+C:\dev\XPS\UnitTestsNumbersToRomanNumerals\obj\Debug\netcoreapp3.0\UnitTestsNumbersToRomanNumerals.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\XPS\UnitTestsNumbersToRomanNumerals\obj\Debug\netcoreapp3.0\UnitTestsNumbersToRomanNumerals.csproj.CoreCompileInputs.cache
+C:\dev\XPS\UnitTestsNumbersToRomanNumerals\obj\Debug\netcoreapp3.0\UnitTestsNumbersToRomanNumerals.genruntimeconfig.cache

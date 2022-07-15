@@ -1,12 +1,14 @@
 ﻿
 
+using System.Threading.Tasks;
+
 namespace NumbersToRomanNumerals
 {
    
     public class NumberConverter : INumberConverter
     {
 
-        public string ConvertFromRomanToNumber(NumberModel inputModel)
+        public async Task<string> ConvertFromRomanToNumber(NumberModel inputModel)
         {
            
             string romanNumeral = string.Empty;

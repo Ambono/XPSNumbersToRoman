@@ -13,10 +13,11 @@ namespace NumbersToRomanNumerals.Service.Tests
             var roman = "VIII";
             NumberConverter nc = new NumberConverter();
             var numberModel = new NumberModel() { Input = num };
+
             //Act
             var response = nc.ConvertFromRomanToNumber(numberModel);
-            //Assert
 
+            //Assert
             Assert.AreEqual(response, roman);
         }
         
@@ -28,10 +29,11 @@ namespace NumbersToRomanNumerals.Service.Tests
             var roman = "MMMMMMMMMMI";
             NumberConverter nc = new NumberConverter();
             var numberModel = new NumberModel() { Input = num };
+
             //Act
             var response = nc.ConvertFromRomanToNumber(numberModel);
-            //Assert
 
+            //Assert
             Assert.AreEqual(response, roman);
         }
 
@@ -43,10 +45,11 @@ namespace NumbersToRomanNumerals.Service.Tests
             var roman = "";
             NumberConverter nc = new NumberConverter();
             var numberModel = new NumberModel() { Input = num };
+
             //Act
             var response = nc.ConvertFromRomanToNumber(numberModel);
-            //Assert
 
+            //Assert
             Assert.AreEqual(response, roman);
         }
 
@@ -60,8 +63,10 @@ namespace NumbersToRomanNumerals.Service.Tests
             
             NumberConverter nc = new NumberConverter();
             var numberModel = new NumberModel() { Input = num };
+
             //Act
             var response = nc.ConvertFromRomanToNumber(numberModel);
+
             //Assert
 
         }
